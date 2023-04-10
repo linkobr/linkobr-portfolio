@@ -1,0 +1,84 @@
+body {
+    /* background-image: url(images/botw08.jpg); */
+    background-color: #D2B48C;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}  
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    padding-left: 50px;
+  }
+  
+  .nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    padding-right: 50px;
+  }
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw;
+    color: #523c20;
+    position: relative;
+  }
+  
+
+.main-content {
+    word-wrap: break-word;
+    width: 80vw;
+    text-align: left;
+}
+
+h1 {
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.name:hover {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p {
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+a {
+    color: #523c20;
+}
+
+a:hover {
+    color: white;
+}
+
+.myself {
+    width: 15vw;
+    height: 15vw;
+    float: left;
+    margin: 20px;
+    border: 2px solid #523c20;
+    
+}
+
+.about-information {
+    max-width: 50vw;
+}
+
